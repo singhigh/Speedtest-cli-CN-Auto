@@ -1,5 +1,6 @@
 # Speedtest-cli-CN-Auto
 A shell for test speed for connection to China
+base on [speedtest.net](http://www.speedtest.net) & [speedtest-cli](https://github.com/sivel/speedtest-cli)
 
 Usage:
 1) For the first time, install speedtest-cli on your server by following commands
