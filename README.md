@@ -3,7 +3,8 @@ A shell for test speed for connection to China
 base on [speedtest.net](http://www.speedtest.net) & [speedtest-cli](https://github.com/sivel/speedtest-cli)
 
 Usage:
-1) For the first time, install speedtest-cli on your server by following commands
+
+* 1) For the first time, install speedtest-cli on your server by following commands
 ``
 wget https://raw.github.com/sivel/speedtest-cli/master/speedtest_cli.py
 ``
@@ -21,12 +22,14 @@ OR
 wget https://raw.githubusercontent.com/singhigh/Speedtest-cli-CN-Auto/master/install.sh --no-check-certificate && bash install.sh
 ``
 
-2)Download the shell for speedtest
+* 2)Download the shell for speedtest
+
 ``
 wget --no-check-certificate https://raw.githubusercontent.com/singhigh/Speedtest-cli-CN-Auto/master/speedtest.sh
 ``
 
-3)Run!
+* 3)Run!
+
 ``
 bash speedtest.sh
 ``
