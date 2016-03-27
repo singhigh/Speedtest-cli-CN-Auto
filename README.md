@@ -2,7 +2,7 @@
 A shell for test speed for connection to China
 
 Usage:
-1) For the first time, install speedtest-cli on your server
+1) For the first time, install speedtest-cli on your server by following commands
 ``
 wget https://raw.github.com/sivel/speedtest-cli/master/speedtest_cli.py
 ``
