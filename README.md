@@ -5,6 +5,7 @@ base on [speedtest.net](http://www.speedtest.net) & [speedtest-cli](https://gith
 Usage:
 
 * 1) For the first time, install speedtest-cli on your server by following commands
+
 ``
 wget https://raw.github.com/sivel/speedtest-cli/master/speedtest_cli.py
 ``
