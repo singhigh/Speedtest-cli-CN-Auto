@@ -1,13 +1,13 @@
 #Credit to speedtest-cli
 
 echo ===========================================
-echo Speedtest-cli-CN-Auto Shell by singhigh @ CCF 
-echo 
+echo -e "\033[33m Speedtest-cli-CN-Auto Shell by singhigh @ CCF \033[0m"
+echo -e "\033[33m     Tested on Debian & Ubuntu \033[0m"
 echo https://github.com/singhigh/Speedtest-cli-CN-Auto
 echo ===========================================
 #Show nearest ISP connection
 echo ===========================================
-echo Now test connection to the NEAREST location based on your IP 
+echo -e "\033[31m Now test connection to the NEAREST location based on your IP \033[0m"
 echo ===========================================
 speedtest-cli --bytes
 #Show connection to China
