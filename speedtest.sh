@@ -12,49 +12,49 @@ echo ===========================================
 speedtest-cli --bytes
 #Show connection to China
 echo ===========================================
-echo Now test connection to China Telecom Hosts 
+echo -e "\033[31m Now test connection to China Telecom Hosts \033[0m"
 echo ===========================================
-echo  Shanghai Telecom 
+echo -e "\033[36m Shanghai \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 3633
 echo ===========================================
-echo  Beijing Telecom 
+echo -e "\033[36m Beijing \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 4751
 echo ===========================================
-echo  Guangzhou Telecom 
+echo -e "\033[36m Guangzhou \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 4672
 echo ===========================================
-echo  Hangzhou Telecom 
+echo -e "\033[36m Hangzhou \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 7509
 echo ===========================================
-echo  Hefei Telecom 
+echo -e "\033[36m Hefei \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 4433
 echo ===========================================
-echo  Nanjing Telecom 
+echo -e "\033[36m Nanjing \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 5316
 echo ===========================================
-echo  Chongqing Telecom 
+echo -e "\033[36m Chongqing \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 6592
 echo ===========================================
-echo  Lanzhou Telecom 
+echo -e "\033[36m Lanzhou \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 3973
 echo ===========================================
-echo  Xiangyang(Hubei) Telecom 
+echo -e "\033[36m Xiangyang - Hubei \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 6435
 echo ===========================================
-echo  Nanchang Telecom 
+echo -e "\033[36m Nanchang \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 7643
 echo ===========================================
-echo  Kunming Telecom 
+echo -e "\033[36m Kunming \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 6415
 echo ===========================================
@@ -62,73 +62,73 @@ echo China Telecom Speedtest Finished
 echo ===========================================
 echo 
 echo ===========================================
-echo Now test connection to China Unicom Hosts 
+echo -e "\033[31m Now test connection to China Unicom Hosts \033[0m"
 echo ===========================================
-echo  Shanghai Unicom 
+echo -e "\033[36m Shanghai \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 5083
 echo ===========================================
-echo  Guangzhou Unicom 
+echo -e "\033[36m Guangzhou \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 3891
 echo ===========================================
-echo  Hangzhou Unicom 
+echo -e "\033[36m Hangzhou \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 5300
 echo ===========================================
-echo  Hohhot Unicom 
+echo -e "\033[36m Hohhot \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 5465
 echo ===========================================
-echo  Tianjin Unicom 
+echo -e "\033[36m Tianjin \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 5475
 echo ===========================================
-echo  Jinan Unicom 
+echo -e "\033[36m Jinan \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 5039
 echo ===========================================
-echo  Xining(Qinghai) Unicom 
+echo -e "\033[36m Xining \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 5992
 echo ===========================================
-echo  Ningxia Unicom 
+echo -e "\033[36m Ningxia \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 5509
 echo ===========================================
-echo  Zhengzhou Unicom 
+echo -e "\033[36m Zhengzhou \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 5131
 echo ===========================================
-echo  Wuhan Unicom 
+echo -e "\033[36m Wuhan \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 7232
 echo ===========================================
-echo  Lhasa Unicom 
+echo -e "\033[36m Lhasa \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 5750
 echo ===========================================
-echo  Jiangxi Unicom 
+echo -e "\033[36m Jiangxi \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 5097
 echo ===========================================
-echo  Changsha Unicom 
+echo -e "\033[36m Changsha \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 4870
 echo ===========================================
-echo  Xiamen Unicom 
+echo -e "\033[36m Xiamen \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 5506
 echo ===========================================
-echo  Nanning Unicom 
+echo -e "\033[36m Nanning \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 5647
 echo ===========================================
-echo  Haikou Unicom 
+echo -e "\033[36m Haikou \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 5985
 echo ===========================================
-echo  Harbin Unicom 
+echo -e "\033[36m Harbin \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 5460
 echo ===========================================
@@ -136,77 +136,78 @@ echo China Unicom Speedtest Finished
 echo ===========================================
 echo 
 echo ===========================================
-echo Now test connection to China Mobile Hosts 
+echo -e "\033[31m Now test connection to China Mobile Hosts \033[0m"
 echo ===========================================
-echo  Beijing Mobile 
+echo -e "\033[36m Beijing \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 4713
 echo ===========================================
-echo  Shanghai Mobile 
+echo -e "\033[36m Shanghai \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 4665
 echo ===========================================
-echo  Guangzhou Mobile 
+echo -e "\033[36m Guangzhou \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 6611
 echo ===========================================
-echo  Hangzhou Mobile 
+echo -e "\033[36m Hangzhou \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 4647
 echo ===========================================
-echo  Ningbo Mobile 
+echo -e "\033[36m Ningbo \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 6715
 echo ===========================================
-echo  Kunming Mobile 
+echo -e "\033[36m Kunming \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 5892
 echo ===========================================
-echo  Shenzhen Mobile 
+echo -e "\033[36m Shenzhen \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 4515
 echo ===========================================
-echo  Lanzhou Mobile 
+echo -e "\033[36m Lanzhou \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 4504
 echo ===========================================
-echo  Zhengzhou Mobile 
+echo -e "\033[36m Zhengzhou \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 4486
 echo ===========================================
-echo  Xi'An Mobile 
+echo -e "\033[36m Xi'an \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 5292
 echo ===========================================
-echo  Hefei Mobile 
+echo -e "\033[36m Hefei \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 4377
 echo ===========================================
-echo  Wuxi(Jiangsu) Mobile 
+echo -e "\033[36m Wuxi \033[0m"
 speedtest-cli --bytes --server 5122
 echo ===========================================
 echo China Mobile Speedtest Finished 
 echo ===========================================
 echo 
 echo ===========================================
-echo Now test connection to Hongkong, Macau and Taiwan 
+echo -e "\033[31m Now test connection to Hongkong, Macau and Taiwan \033[0m"
 echo ===========================================
-echo  Atombase Global Datamation, Hongkong 
+echo -e "\033[36m Atombase Global Datamation, Hongkong \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 8170
 echo ===========================================
-echo speedtest-cli Website Solution Limited, Hongkong 
+echo -e "\033[36m Website Solution Limited, Hongkong \033[0m"
+echo ===========================================
 speedtest-cli --bytes --server 2993
 echo ===========================================
-echo  Macau CTM 
+echo -e "\033[36m CTM, Macau \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 1849
 echo ===========================================
-echo  Far EasTone Telecommunications, Taiwan, China 
+echo -e "\033[36m Far EasTone Telecommunications, Taiwan, China  \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 2589
 echo ===========================================
-echo  Taipei Fiber, Taiwan, China 
+echo -e "\033[36m Taipei Fiber, Taiwan, China  \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 5056
 echo ===========================================
@@ -214,7 +215,7 @@ echo Hong Kong, Macau and Taiwan Speedtest Finished
 echo ===========================================
 
 echo ===========================================
-echo          Speedtest Completed 
+echo -e "\033[41;37m Speedtest Completed \033[0m"
 echo ===========================================
 
 
