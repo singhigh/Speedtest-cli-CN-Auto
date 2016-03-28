@@ -1,12 +1,14 @@
 #Credit to speedtest-cli
 
 dir=`basename $0`
-if [ $1 == "main" ];then
+if [ $1 == "shanghai" ];then
   clear
   echo ===========================================
   echo -e "\033[33m Speedtest-cli-CN-Auto Shell by singhigh @ CCF \033[0m"
   echo -e "\033[33m     Tested on Debian & Ubuntu \033[0m"
   echo https://github.com/singhigh/Speedtest-cli-CN-Auto
+  echo ===========================================
+  echo -e "\033[47;30m Now test connection to Hosts in Shanghai \033[0m"
   echo ===========================================
   echo -e "\033[36m Shanghai Telecom \033[0m"
   echo ===========================================
@@ -16,7 +18,7 @@ if [ $1 == "main" ];then
   echo ===========================================
   speedtest-cli --bytes --server 5083
   echo ===========================================
-  echo -e "\033[36m Shanghai \033[0m"
+  echo -e "\033[36m Shanghai Mobile \033[0m"
   echo ===========================================
   speedtest-cli --bytes --server 4665
   echo ===========================================
@@ -435,7 +437,7 @@ elif [ $1 == "all" ];then
   echo -e "\033[41;37m   speedtest Completed, Congratulations! \033[0m"
   echo ===================================
 else
-   echo "$dir.sh {main|telecom|unicom|mobile|all}"
+   echo "$dir.sh {shanghai|telecom|unicom|mobile|all}"
 fi
 
 
