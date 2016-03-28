@@ -149,10 +149,6 @@ echo -e "\033[36m Shanghai \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 4665
 echo ===========================================
-echo -e "\033[36m Guangzhou \033[0m"
-echo ===========================================
-speedtest-cli --bytes --server 6611
-echo ===========================================
 echo -e "\033[36m Hangzhou \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 4647
@@ -186,6 +182,7 @@ echo ===========================================
 speedtest-cli --bytes --server 4377
 echo ===========================================
 echo -e "\033[36m Wuxi \033[0m"
+echo ===========================================
 speedtest-cli --bytes --server 5122
 echo ===========================================
 echo -e "\033[45;37m China Mobile Speedtest Finished \033[0m"
