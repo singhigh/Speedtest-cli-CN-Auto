@@ -125,7 +125,7 @@ speedtest-cli --bytes --server 5506
 echo ===========================================
 echo -e "\033[36m Nanning \033[0m"
 echo ===========================================
-speedtest-cli --bytes --server 5647
+speedtest-cli --bytes --server 5674
 echo ===========================================
 echo -e "\033[36m Haikou \033[0m"
 echo ===========================================
