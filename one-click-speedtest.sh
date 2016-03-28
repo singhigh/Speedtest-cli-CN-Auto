@@ -55,7 +55,7 @@ elif [ $1 == "mobile" ];then
   rm -rf speedtest-choice.sh
   rm -rf /usr/local/bin/speedtest-cli
 elif [ $1 == "all" ];then
-    # GET speedtest-cli
+  # GET speedtest-cli
   wget https://raw.github.com/sivel/speedtest-cli/master/speedtest_cli.py 
   chmod a+rx speedtest_cli.py 
   sudo mv speedtest_cli.py /usr/local/bin/speedtest-cli 
