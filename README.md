@@ -1,7 +1,7 @@
 # Speedtest-cli-CN-Auto
 __FOR ENGLISH INSTRUCTIONS, PLEASE ROLL DOWN__
 
-一个适用于Debian和Ubuntu的、以中国境内测速点为测速目标的测速脚本。
+一个适用于Debian和Ubuntu的、以中国境内测速点为测速目标的测速脚本。另有[speedtest-choice.sh](https://github.com/singhigh/Speedtest-cli-CN-Auto/blob/master/speedtest-choice.sh)可以选择参数，针对上海、各运营商进行测速。
 
 本脚本基于[speedtest.net](http://www.speedtest.net) 和 [speedtest-cli](https://github.com/sivel/speedtest-cli) 写成。
 #### 使用方法
