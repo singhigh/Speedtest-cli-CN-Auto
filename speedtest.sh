@@ -1,5 +1,5 @@
 #Credit to speedtest-cli
-
+clear
 echo ===========================================
 echo -e "\033[33m Speedtest-cli-CN-Auto Shell by singhigh @ CCF \033[0m"
 echo -e "\033[33m     Tested on Debian & Ubuntu \033[0m"
