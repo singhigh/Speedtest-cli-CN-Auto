@@ -1,6 +1,6 @@
 # Speedtest-cli-CN-Auto
-A shell for test speed for connection to China
-base on [speedtest.net](http://www.speedtest.net) & [speedtest-cli](https://github.com/sivel/speedtest-cli)
+A Debian & Ubuntu shell for test speed for connection to China
+Base on [speedtest.net](http://www.speedtest.net) & [speedtest-cli](https://github.com/sivel/speedtest-cli)
 
 Usage:
 
