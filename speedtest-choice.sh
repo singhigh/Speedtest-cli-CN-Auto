@@ -13,7 +13,7 @@ if [ $1 == "shanghai" ];then
   echo -e "\033[33m     Tested on Debian & Ubuntu \033[0m"
   echo https://github.com/singhigh/Speedtest-cli-CN-Auto
   echo ===========================================
-  echo -e "\033[47;30m Now test connection to Hosts in Shanghai \033[0m"
+  echo -e "\033[47;30m Now test connection speed to Hosts in Shanghai \033[0m"
   echo ===========================================
   echo -e "\033[36m Shanghai Telecom \033[0m"
   echo ===========================================
@@ -39,7 +39,7 @@ elif [ $1 == "telecom" ];then
   echo https://github.com/singhigh/Speedtest-cli-CN-Auto
   echo ===========================================
   echo ===========================================
-  echo -e "\033[47;30m Now test connection to China Telecom Hosts \033[0m"
+  echo -e "\033[47;30m Now test connection speed to China Telecom Hosts \033[0m"
   echo ===========================================
   echo -e "\033[36m Shanghai \033[0m"
   echo ===========================================
@@ -95,7 +95,7 @@ elif [ $1 == "unicom" ];then
   echo https://github.com/singhigh/Speedtest-cli-CN-Auto
   echo ===========================================
   echo ===========================================
-  echo -e "\033[47;30m Now test connection to China Unicom Hosts \033[0m"
+  echo -e "\033[47;30m Now test connection speed to China Unicom Hosts \033[0m"
   echo ===========================================
   echo -e "\033[36m Shanghai \033[0m"
   echo ===========================================
@@ -165,7 +165,7 @@ elif [ $1 == "unicom" ];then
   echo ===========================================
   speedtest-cli --bytes --server 5460
   echo ===========================================
-  echo -e "\033[45;37m China Unicom   speedtest Finished \033[0m"
+  echo -e "\033[45;37m China Unicom Speedtest Finished \033[0m"
   echo ===========================================
 elif [ $1 == "mobile" ];then
   clear
@@ -175,7 +175,7 @@ elif [ $1 == "mobile" ];then
   echo https://github.com/singhigh/Speedtest-cli-CN-Auto
   echo ===========================================
   echo ===========================================
-  echo -e "\033[47;30m Now test connection to China Mobile Hosts \033[0m"
+  echo -e "\033[47;30m Now test connection speed to China Mobile Hosts \033[0m"
   echo ===========================================
   echo -e "\033[36m Beijing \033[0m"
   echo ===========================================
@@ -221,7 +221,7 @@ elif [ $1 == "mobile" ];then
   echo ===========================================
   speedtest-cli --bytes --server 5122
   echo ===========================================
-  echo -e "\033[45;37m China Mobile   speedtest Finished \033[0m"
+  echo -e "\033[45;37m China Mobile Speedtest Finished \033[0m"
   echo ===========================================
 elif [ $1 == "all" ];then
   clear
@@ -240,7 +240,7 @@ elif [ $1 == "all" ];then
   echo 
 #Show connection to China
   echo ===========================================
-  echo -e "\033[47;30m Now test connection to China Telecom Hosts \033[0m"
+  echo -e "\033[47;30m Now test connection speed to China Telecom Hosts \033[0m"
   echo ===========================================
   echo -e "\033[36m Shanghai \033[0m"
   echo ===========================================
@@ -286,11 +286,11 @@ elif [ $1 == "all" ];then
   echo ===========================================
   speedtest-cli --bytes --server 6415
   echo ===========================================
-  echo -e "\033[45;37m China Telecom   speedtest Finished \033[0m"
+  echo -e "\033[45;37m China Telecom Speedtest Finished \033[0m"
   echo ===========================================
   echo 
   echo ===========================================
-  echo -e "\033[47;30m Now test connection to China Unicom Hosts \033[0m"
+  echo -e "\033[47;30m Now test connection speed to China Unicom Hosts \033[0m"
   echo ===========================================
   echo -e "\033[36m Shanghai \033[0m"
   echo ===========================================
@@ -360,11 +360,11 @@ elif [ $1 == "all" ];then
   echo ===========================================
   speedtest-cli --bytes --server 5460
   echo ===========================================
-  echo -e "\033[45;37m China Unicom   speedtest Finished \033[0m"
+  echo -e "\033[45;37m China Unicom Speedtest Finished \033[0m"
   echo ===========================================
   echo 
   echo ===========================================
-  echo -e "\033[47;30m Now test connection to China Mobile Hosts \033[0m"
+  echo -e "\033[47;30m Now test connection speed to China Mobile Hosts \033[0m"
   echo ===========================================
   echo -e "\033[36m Beijing \033[0m"
   echo ===========================================
@@ -410,11 +410,11 @@ elif [ $1 == "all" ];then
   echo ===========================================
   speedtest-cli --bytes --server 5122
   echo ===========================================
-  echo -e "\033[45;37m China Mobile   speedtest Finished \033[0m"
+  echo -e "\033[45;37m China Mobile Speedtest Finished \033[0m"
   echo ===========================================
   echo 
   echo ===========================================
-  echo -e "\033[47;30m Now test connection to Hongkong, Macau and Taiwan \033[0m"
+  echo -e "\033[47;30m Now test connection speed to Hongkong, Macau and Taiwan \033[0m"
   echo ===========================================
   echo -e "\033[36m Atombase Global Datamation, Hongkong \033[0m"
   echo ===========================================
@@ -436,10 +436,10 @@ elif [ $1 == "all" ];then
   echo ===========================================
   speedtest-cli --bytes --server 5056
   echo ===========================================
-  echo -e "\033[45;37m HK, MO and TW   speedtest Finished \033[0m"
+  echo -e "\033[45;37m HK, MO and TW Speedtest Finished \033[0m"
   echo ===========================================
   echo ===========================================
-  echo -e "\033[41;37m   speedtest Completed, Congratulations! \033[0m"
+  echo -e "\033[41;37m   Speedtest Completed, Congratulations! \033[0m"
   echo ===================================
 else
    echo "$dir.sh {shanghai|telecom|unicom|mobile|all}"
