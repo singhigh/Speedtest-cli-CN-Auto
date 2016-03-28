@@ -1,4 +1,9 @@
-#Credit to speedtest-cli
+# Credit to speedtest-cli
+# Instruction only offered in Chinese
+# 命令格式: bash speedtest-choice.sh shanghai|telecom|unicom|mobile|all
+# 参数说明：shanghai只测到上海的三个运营商的速度，telecom只测到电信的速度，unicom只测到联通的速度，mobile只测到移动的速度，all全部测试。
+# 命令示例：bash speedtest-choice.sh shanghai
+
 
 dir=`basename $0`
 if [ $1 == "shanghai" ];then
