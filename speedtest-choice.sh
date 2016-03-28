@@ -454,8 +454,7 @@ elif [ $1 == "all" ];then
   echo -e "\033[41;37m   speedtest Completed, Congratulations! \033[0m"
   echo ===================================
 else
-   echo "$dir.sh {shanghai|telecom|unicom|mobile|all}"
-   echo example: {"$dir.sh" shanghai} for speedtest to hosts in shanghai
+  echo "$dir.sh {shanghai|telecom|unicom|mobile|all}"
 fi
 
 
