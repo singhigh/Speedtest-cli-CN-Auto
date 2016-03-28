@@ -1,5 +1,5 @@
 # Speedtest-cli-CN-Auto
-__FOR ENGLISH INSTRUCTION, PLEASE ROLL DOWN__
+__FOR ENGLISH INSTRUCTIONS, PLEASE ROLL DOWN__
 
 一个适用于Debian和Ubuntu的、以中国境内测速点为测速目标的测速脚本。
 
