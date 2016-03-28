@@ -1,5 +1,5 @@
 # ONE CLICK ALL
-# USAGE :wget --no-check-certificate https://raw.githubusercontent.com/singhigh/Speedtest-cli-CN-Auto/master/one-click-test.sh && bash one-click-test.sh {shanghai|telecom|unicom|mobile|all}
+# USAGE :wget --no-check-certificate https://raw.githubusercontent.com/singhigh/Speedtest-cli-CN-Auto/master/one-click-speedtest.sh && bash one-click-speedtest.sh {shanghai|telecom|unicom|mobile|all}
 
 dir=`basename $0`
 if [ $1 == "shanghai" ];then
