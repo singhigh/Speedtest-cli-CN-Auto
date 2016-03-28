@@ -7,12 +7,15 @@ echo https://github.com/singhigh/Speedtest-cli-CN-Auto
 echo ===========================================
 #Show nearest ISP connection
 echo ===========================================
-echo -e "\033[31m Now test connection to the NEAREST location based on your IP \033[0m"
+echo -e "\033[47;30m Now test connection to the NEAREST location based on your IP \033[0m"
 echo ===========================================
 speedtest-cli --bytes
+echo -e "\033[45;37m Nearest Location based on your IP Speedtest Finished \033[0m"
+echo ===========================================
+echo ===========================================
 #Show connection to China
 echo ===========================================
-echo -e "\033[31m Now test connection to China Telecom Hosts \033[0m"
+echo -e "\033[47;30m Now test connection to China Telecom Hosts \033[0m"
 echo ===========================================
 echo -e "\033[36m Shanghai \033[0m"
 echo ===========================================
@@ -58,11 +61,11 @@ echo -e "\033[36m Kunming \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 6415
 echo ===========================================
-echo China Telecom Speedtest Finished 
+echo -e "\033[45;37m China Telecom Speedtest Finished \033[0m"
 echo ===========================================
 echo 
 echo ===========================================
-echo -e "\033[31m Now test connection to China Unicom Hosts \033[0m"
+echo -e "\033[47;30m Now test connection to China Unicom Hosts \033[0m"
 echo ===========================================
 echo -e "\033[36m Shanghai \033[0m"
 echo ===========================================
@@ -132,11 +135,11 @@ echo -e "\033[36m Harbin \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 5460
 echo ===========================================
-echo China Unicom Speedtest Finished 
+echo -e "\033[45;37m China Unicom Speedtest Finished \033[0m"
 echo ===========================================
 echo 
 echo ===========================================
-echo -e "\033[31m Now test connection to China Mobile Hosts \033[0m"
+echo -e "\033[47;30m Now test connection to China Mobile Hosts \033[0m"
 echo ===========================================
 echo -e "\033[36m Beijing \033[0m"
 echo ===========================================
@@ -185,11 +188,11 @@ echo ===========================================
 echo -e "\033[36m Wuxi \033[0m"
 speedtest-cli --bytes --server 5122
 echo ===========================================
-echo China Mobile Speedtest Finished 
+echo -e "\033[45;37m China Mobile Speedtest Finished \033[0m"
 echo ===========================================
 echo 
 echo ===========================================
-echo -e "\033[31m Now test connection to Hongkong, Macau and Taiwan \033[0m"
+echo -e "\033[47;30m Now test connection to Hongkong, Macau and Taiwan \033[0m"
 echo ===========================================
 echo -e "\033[36m Atombase Global Datamation, Hongkong \033[0m"
 echo ===========================================
@@ -211,12 +214,12 @@ echo -e "\033[36m Taipei Fiber, Taiwan, China  \033[0m"
 echo ===========================================
 speedtest-cli --bytes --server 5056
 echo ===========================================
-echo Hong Kong, Macau and Taiwan Speedtest Finished 
+echo -e "\033[45;37m HK, MO and TW Speedtest Finished \033[0m"
 echo ===========================================
 
 echo ===========================================
-echo -e "\033[41;37m Speedtest Completed \033[0m"
-echo ===========================================
+echo -e "\033[41;37m Speedtest Completed, Congratulations! \033[0m"
+echo ===================================
 
 
 
