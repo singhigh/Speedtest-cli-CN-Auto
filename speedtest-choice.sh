@@ -87,10 +87,6 @@ elif [ $1 == "telecom" ];then
   echo ===========================================
   echo -e "\033[45;37m China Telecom Speedtest Finished \033[0m"
   echo ===========================================
-  echo
-  echo ===========================================
-  echo -e "\033[41;37m Speedtest Completed, Congratulations! \033[0m"
-  echo ===================================
 elif [ $1 == "unicom" ];then
   clear
   echo ===========================================
@@ -171,10 +167,6 @@ elif [ $1 == "unicom" ];then
   echo ===========================================
   echo -e "\033[45;37m China Unicom   speedtest Finished \033[0m"
   echo ===========================================
-  echo
-  echo ===========================================
-  echo -e "\033[41;37m Speedtest Completed, Congratulations! \033[0m"
-  echo ===================================
 elif [ $1 == "mobile" ];then
   clear
   echo ===========================================
@@ -231,10 +223,6 @@ elif [ $1 == "mobile" ];then
   echo ===========================================
   echo -e "\033[45;37m China Mobile   speedtest Finished \033[0m"
   echo ===========================================
-  echo
-  echo ===========================================
-  echo -e "\033[41;37m Speedtest Completed, Congratulations! \033[0m"
-  echo ===================================
 elif [ $1 == "all" ];then
   clear
   echo ===========================================
@@ -454,9 +442,5 @@ elif [ $1 == "all" ];then
   echo -e "\033[41;37m   speedtest Completed, Congratulations! \033[0m"
   echo ===================================
 else
-  echo "$dir.sh {shanghai|telecom|unicom|mobile|all}"
+   echo "$dir.sh {shanghai|telecom|unicom|mobile|all}"
 fi
-
-
-
-
