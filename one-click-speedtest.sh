@@ -15,6 +15,7 @@ if [ $1 == "shanghai" ];then
   # DELETE speedtest-cli and script
   rm -rf speedtest-choice.sh
   rm -rf /usr/local/bin/speedtest-cli
+  rm -rf one-click-speedtest.sh
 elif [ $1 == "telecom" ];then
   # GET speedtest-cli
   wget https://raw.github.com/sivel/speedtest-cli/master/speedtest_cli.py 
@@ -28,6 +29,7 @@ elif [ $1 == "telecom" ];then
   # DELETE speedtest-cli and script
   rm -rf speedtest-choice.sh
   rm -rf /usr/local/bin/speedtest-cli
+  rm -rf one-click-speedtest.sh
 elif [ $1 == "unicom" ];then
   # GET speedtest-cli
   wget https://raw.github.com/sivel/speedtest-cli/master/speedtest_cli.py 
@@ -41,6 +43,7 @@ elif [ $1 == "unicom" ];then
   # DELETE speedtest-cli and script
   rm -rf speedtest-choice.sh
   rm -rf /usr/local/bin/speedtest-cli
+  rm -rf one-click-speedtest.sh
 elif [ $1 == "mobile" ];then
   # GET speedtest-cli
   wget https://raw.github.com/sivel/speedtest-cli/master/speedtest_cli.py 
@@ -54,6 +57,7 @@ elif [ $1 == "mobile" ];then
   # DELETE speedtest-cli and script
   rm -rf speedtest-choice.sh
   rm -rf /usr/local/bin/speedtest-cli
+  rm -rf one-click-speedtest.sh
 elif [ $1 == "all" ];then
   # GET speedtest-cli
   wget https://raw.github.com/sivel/speedtest-cli/master/speedtest_cli.py 
@@ -67,6 +71,7 @@ elif [ $1 == "all" ];then
   # DELETE speedtest-cli and script
   rm -rf speedtest-choice.sh
   rm -rf /usr/local/bin/speedtest-cli
+  rm -rf one-click-speedtest.sh
 else
    echo "$dir.sh {shanghai|telecom|unicom|mobile|all}"
 fi
