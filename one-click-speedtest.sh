@@ -4,7 +4,7 @@
 dir=`basename $0`
 if [ $1 == "shanghai" ];then
   # GET speedtest-cli
-  wget https://raw.github.com/sivel/speedtest-cli/master/speedtest_cli.py 
+  wget --no-check-certificate https://raw.github.com/sivel/speedtest-cli/master/speedtest_cli.py 
   chmod a+rx speedtest_cli.py 
   sudo mv speedtest_cli.py /usr/local/bin/speedtest-cli 
   sudo chown root:root /usr/local/bin/speedtest-cli 
@@ -18,7 +18,7 @@ if [ $1 == "shanghai" ];then
   rm -rf one-click-speedtest.sh
 elif [ $1 == "telecom" ];then
   # GET speedtest-cli
-  wget https://raw.github.com/sivel/speedtest-cli/master/speedtest_cli.py 
+  wget --no-check-certificate https://raw.github.com/sivel/speedtest-cli/master/speedtest_cli.py 
   chmod a+rx speedtest_cli.py 
   sudo mv speedtest_cli.py /usr/local/bin/speedtest-cli 
   sudo chown root:root /usr/local/bin/speedtest-cli 
@@ -32,7 +32,7 @@ elif [ $1 == "telecom" ];then
   rm -rf one-click-speedtest.sh
 elif [ $1 == "unicom" ];then
   # GET speedtest-cli
-  wget https://raw.github.com/sivel/speedtest-cli/master/speedtest_cli.py 
+  wget --no-check-certificate https://raw.github.com/sivel/speedtest-cli/master/speedtest_cli.py 
   chmod a+rx speedtest_cli.py 
   sudo mv speedtest_cli.py /usr/local/bin/speedtest-cli 
   sudo chown root:root /usr/local/bin/speedtest-cli 
@@ -46,7 +46,7 @@ elif [ $1 == "unicom" ];then
   rm -rf one-click-speedtest.sh
 elif [ $1 == "mobile" ];then
   # GET speedtest-cli
-  wget https://raw.github.com/sivel/speedtest-cli/master/speedtest_cli.py 
+  wget --no-check-certificate https://raw.github.com/sivel/speedtest-cli/master/speedtest_cli.py 
   chmod a+rx speedtest_cli.py 
   sudo mv speedtest_cli.py /usr/local/bin/speedtest-cli 
   sudo chown root:root /usr/local/bin/speedtest-cli 
@@ -60,7 +60,7 @@ elif [ $1 == "mobile" ];then
   rm -rf one-click-speedtest.sh
 elif [ $1 == "all" ];then
   # GET speedtest-cli
-  wget https://raw.github.com/sivel/speedtest-cli/master/speedtest_cli.py 
+  wget --no-check-certificate https://raw.github.com/sivel/speedtest-cli/master/speedtest_cli.py 
   chmod a+rx speedtest_cli.py 
   sudo mv speedtest_cli.py /usr/local/bin/speedtest-cli 
   sudo chown root:root /usr/local/bin/speedtest-cli 
