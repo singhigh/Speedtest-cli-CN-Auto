@@ -261,24 +261,24 @@ iotest()
 #开始测试来的路由
 tracetest()
 {
-	mtrgo "http://www.ipip.net/traceroute.php?as=1&a=get&n=1&id=274&ip=$IP" "ChinaTelecom-Guangzhou"
-	mtrgo "http://www.ipip.net/traceroute.php?as=1&a=get&n=1&id=100&ip=$IP" "ChinaTelecom-Shanghai"
-	mtrgo "http://www.ipip.net/traceroute.php?as=1&a=get&n=1&id=20&ip=$IP" "ChinaTelecom-XiamenCN2"
-	mtrgo "http://www.ipip.net/traceroute.php?as=1&a=get&n=1&id=12&ip=$IP" "ChinaUnicom-Chongqin"
-	mtrgo "http://www.ipip.net/traceroute.php?as=1&a=get&n=1&id=356&ip=$IP" "ChinaMobile-Shanghai"
-	mtrgo "http://www.ipip.net/traceroute.php?as=1&a=get&n=1&id=160&ip=$IP" "CERNET-Beijing"
+	mtrgo "http://www.ipip.net/traceroute.php?as=1&a=get&n=1&id=274&ip=$IP" "ChinaTelecomGuangzhou"
+	mtrgo "http://www.ipip.net/traceroute.php?as=1&a=get&n=1&id=100&ip=$IP" "ChinaTelecomShanghai"
+	mtrgo "http://www.ipip.net/traceroute.php?as=1&a=get&n=1&id=20&ip=$IP" "ChinaTelecomXiamenCN2"
+	mtrgo "http://www.ipip.net/traceroute.php?as=1&a=get&n=1&id=12&ip=$IP" "ChinaUnicomChongqin"
+	mtrgo "http://www.ipip.net/traceroute.php?as=1&a=get&n=1&id=356&ip=$IP" "ChinaMobileShanghai"
+	mtrgo "http://www.ipip.net/traceroute.php?as=1&a=get&n=1&id=160&ip=$IP" "CERNETBeijing"
 }
 
 
 #开始测试回程路由
 backtracetest()
 {
-	mtrback "14.215.116.1" "ChinaTelecom-Guangzhou"
-	mtrback "101.227.255.45" "ChinaTelecom-Shanghai"
-	mtrback "117.28.254.129" "China Telecom-Xiamen (CN2)"
-	mtrback "113.207.32.65" "China Unicom-Chongqin"
-	mtrback "183.192.160.3" "China Mobile-Shanghai"
-	mtrback "202.205.6.30" "CERNET-Beijing"
+	mtrback "14.215.116.1" "ChinaTelecomGuangzhou"
+	mtrback "101.227.255.45" "ChinaTelecomShanghai"
+	mtrback "117.28.254.129" "ChinaTelecomXiamen (CN2)"
+	mtrback "113.207.32.65" "ChinaUnicomChongqin"
+	mtrback "183.192.160.3" "ChinaMobileShanghai"
+	mtrback "202.205.6.30" "CERNETBeijing"
 }
 
 
